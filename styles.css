@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* azul claro */
+    background-image: url('fundo.jpg'); /* Caso queira uma imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* fundo branco com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    width: 100%;
+}
+
+h1 {
+    color: #00796b; /* verde escuro */
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid #00838f; /* borda azul escura */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00796b; /* verde escuro */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #004d40; /* verde mais escuro ao passar o mouse */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
